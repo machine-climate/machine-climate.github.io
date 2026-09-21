@@ -3,6 +3,11 @@
   --muted: #555555;
   --bg: #fffdf6;
   --accent: #111111;
+  --h1: #0d0d0d;
+  --h2: #1c1c1c;
+  --h3: #2a2a2a;
+  --h4: #383838;
+  --body: #454545;
 }
 
 * { box-sizing: border-box; }
@@ -10,7 +15,7 @@
 body {
   margin: 0;
   font-family: ui-monospace, "SF Mono", Consolas, monospace;
-  color: var(--text);
+  color: var(--body);
   background: var(--bg);
   line-height: 1.5;
   font-size: 14px;
@@ -73,6 +78,7 @@ main {
 h1 {
   font-size: 1.1rem;
   font-weight: 700;
+  color: var(--h1);
   margin: 0 0 2px;
 }
 
@@ -85,6 +91,7 @@ h1 {
 h2 {
   font-size: 1rem;
   font-weight: 700;
+  color: var(--h2);
   margin-top: 28px;
   margin-bottom: 8px;
 }
@@ -92,6 +99,7 @@ h2 {
 h3 {
   font-size: 0.95rem;
   font-weight: 700;
+  color: var(--h3);
   margin-top: 20px;
   margin-bottom: 6px;
 }
@@ -99,7 +107,7 @@ h3 {
 h4 {
   font-size: 0.85rem;
   font-weight: 700;
-  color: var(--muted);
+  color: var(--h4);
   margin-top: 14px;
   margin-bottom: 4px;
 }
