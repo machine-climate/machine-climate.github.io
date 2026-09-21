@@ -116,6 +116,57 @@ a {
   max-width: 62ch;
 }
 
+.roster {
+  list-style: none;
+  margin: 0 0 24px;
+  padding: 0;
+}
+
+.roster li {
+  margin-bottom: 4px;
+}
+
+.profile {
+  margin: 0 0 24px;
+}
+
+.profile dt {
+  color: var(--muted);
+  float: left;
+  width: 110px;
+  clear: left;
+}
+
+.profile dd {
+  margin: 0 0 6px 110px;
+}
+
+.pubs {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+
+.pubs li {
+  margin-bottom: 10px;
+  max-width: 62ch;
+}
+
+.entry {
+  border-top: 1px solid var(--muted);
+  padding-top: 14px;
+  margin-top: 14px;
+}
+
+.entry:first-of-type {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.entry h2 {
+  margin-top: 0;
+}
+
 .stub {
   color: var(--muted);
 }
