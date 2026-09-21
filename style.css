@@ -106,6 +106,16 @@ a {
   margin-top: 20px;
 }
 
+.principles {
+  margin: 0 0 14px;
+  padding-left: 20px;
+}
+
+.principles li {
+  margin-bottom: 10px;
+  max-width: 62ch;
+}
+
 .stub {
   color: var(--muted);
 }
