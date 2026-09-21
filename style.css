@@ -1,8 +1,8 @@
 :root {
-  --accent: #1a5276;
-  --text: #222;
-  --muted: #666;
-  --border: #e0e0e0;
+  --accent: #1a7a3c;
+  --text: #1a1a1a;
+  --muted: #6a6a6a;
+  --border: #1a1a1a;
   --bg: #ffffff;
 }
 
@@ -10,10 +10,12 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-family: ui-monospace, "SF Mono", "Cascadia Code", "Fira Code",
+    Consolas, monospace;
   color: var(--text);
   background: var(--bg);
   line-height: 1.6;
+  font-size: 15px;
 }
 
 .wrap {
@@ -23,7 +25,7 @@ body {
 }
 
 nav {
-  border-bottom: 1px solid var(--border);
+  border-bottom: 2px solid var(--border);
 }
 
 nav .wrap {
@@ -37,16 +39,21 @@ nav .wrap {
 }
 
 nav .brand {
-  font-weight: 600;
+  font-weight: 700;
   color: var(--text);
   text-decoration: none;
-  font-size: 1.05rem;
+  font-size: 1rem;
+}
+
+nav .brand::before {
+  content: "~/";
+  color: var(--muted);
 }
 
 nav ul {
   list-style: none;
   display: flex;
-  gap: 22px;
+  gap: 18px;
   margin: 0;
   padding: 0;
 }
@@ -54,7 +61,12 @@ nav ul {
 nav a {
   color: var(--text);
   text-decoration: none;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+}
+
+nav a::before {
+  content: "./";
+  color: var(--muted);
 }
 
 nav a:hover {
@@ -66,12 +78,19 @@ nav a.archive-link {
 }
 
 main {
-  padding: 48px 0 64px;
+  padding: 40px 0 64px;
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 1.4rem;
   margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+h1::before {
+  content: "# ";
+  color: var(--accent);
 }
 
 .affiliation {
@@ -80,9 +99,17 @@ h1 {
   margin-bottom: 32px;
 }
 
+.affiliation::before {
+  content: "// ";
+}
+
 h2 {
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin-top: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 4px;
 }
 
 p {
@@ -91,32 +118,48 @@ p {
 
 a {
   color: var(--accent);
+  text-decoration: underline;
 }
 
 .links {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
   margin-top: 32px;
+  border: 1px solid var(--border);
+  padding: 16px;
+  background: #fafafa;
 }
 
 .links a {
   font-weight: 500;
 }
 
+.links a::before {
+  content: "$ open ";
+  color: var(--muted);
+}
+
 .stub {
   color: var(--muted);
-  font-style: italic;
+}
+
+.stub::before {
+  content: "$ echo ";
 }
 
 footer {
-  border-top: 1px solid var(--border);
+  border-top: 2px solid var(--border);
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.85rem;
 }
 
 footer .wrap {
   padding: 24px 0;
+}
+
+footer .wrap::before {
+  content: "$ ";
 }
 
 footer a {
