@@ -55,6 +55,7 @@ nav ul {
 nav a {
   color: var(--text);
   text-decoration: none;
+  white-space: nowrap;
 }
 
 nav a:not(:last-child)::after {
