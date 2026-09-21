@@ -25,13 +25,149 @@
     <div class="wrap">
       <p><a href="/people.html">&larr; People</a></p>
 
-      <h1>Alumni</h1>
+      <h2>Past Students</h2>
 
-      <h2>MS thesis alumni</h2>
-      <p class="stub">To be added.</p>
+      <div class="entry">
+        <h3 id="kaustubh-javkar">Kaustubh Javkar</h3>
+        <p><em>Climate-Driven Wing Morphology in Erebia
+        Butterflies</em></p>
+        <p class="stub">MS thesis &middot; May 2025 &ndash; May 2026</p>
+        <p>
+          Studied how climate shapes wing morphology in Erebia
+          butterflies, using deep-learning-based shape analysis
+          (SAM2 feature embeddings) combined with species
+          distribution modelling. Found that forewings diverge
+          sharply between species while hindwings stay more
+          conserved, driven mainly by precipitation seasonality,
+          temperature extremes, and elevation.
+        </p>
+      </div>
 
-      <h2>Semester project alumni</h2>
-      <p class="stub">To be added.</p>
+      <div class="entry">
+        <h3 id="deepjit-debnath">Deepjit Debnath</h3>
+        <p><em>Network Topology of Indian Summer Monsoon Onset
+        Variability</em></p>
+        <p class="stub">MS thesis &middot; May 2025 &ndash; May 2026</p>
+        <p>
+          Built a network-based framework, combining event
+          synchronization, network divergence, propagation
+          analysis, and community detection, to compare the
+          climate structure of early versus late monsoon onset
+          years using 1979&ndash;2020 rainfall data. Found that the
+          two onset types produce distinctly different network
+          topologies, likely shaped by different phases of the
+          Boreal Summer Intraseasonal Oscillation.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="vishnu-kadam">Vishnu Kadam</h3>
+        <p><em>Reproducibility and Regional Evaluation of SFNO-Based
+        Weather Forecasting</em></p>
+        <p class="stub">MS thesis &middot; May 2025 &ndash; May 2026</p>
+        <p>
+          Tested the reproducibility and regional performance of
+          SFNO-based ForeCastNet, a neural-operator weather model,
+          on both global and Indian-subcontinent data at two
+          resolutions. Built a full training-to-evaluation
+          pipeline and assessed forecast accuracy and stability
+          using RMSE and anomaly correlation across lead times.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="prakhar-maurya">Prakhar Maurya</h3>
+        <p><em>DeepAR: Segmenting Atmospheric Rivers with Segment
+        Anything</em></p>
+        <p class="stub">
+          Semester project &middot; Jan 2025, Aug 2025, Jan 2026
+        </p>
+        <p>
+          Built DeepAR, a Segment Anything Model (SAM)-based model to
+          detect atmospheric rivers in climate data. Trained on ERA5
+          reanalysis, it segments atmospheric rivers well there but
+          struggles on CMIP6 climate projections (SSP2-4.5,
+          SSP5-8.5) due to distribution shift.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="ayush-raj">Ayush Raj</h3>
+        <p><em>A FuXi-Inspired Model for Global Weather
+        Forecasting</em></p>
+        <p class="stub">
+          Semester project &middot; Jan 2025, Aug 2025, Jan 2026
+        </p>
+        <p>
+          Built a FuXi-inspired global weather model (Swin
+          Transformer V2 encoder, U-Net decoder) for six-hour-ahead
+          forecasts at 1.5-degree resolution. Compared full
+          fine-tuning against LoRA/PEFT variants; full fine-tuning
+          held up better on long-horizon metrics.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="arpit-arya">Arpit Arya</h3>
+        <p><em>A Local, Low-Resolution Implementation of
+        Pangu-Weather</em></p>
+        <p class="stub">
+          Semester project &middot; Jan 2025, Aug 2025, Jan 2026
+        </p>
+        <p>
+          Built a local, lower-resolution (240&times;121)
+          implementation of Pangu-Weather, Huawei's 3D-transformer
+          weather model, trained on 40 years of ERA5 data. Forecasts
+          stayed usable (ACC above 0.6) for 3&ndash;4 days on
+          held-out 2021&ndash;2023 test data, despite the resolution
+          cut.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="bharat">Bharat</h3>
+        <p><em>Scaling HEAL-ViT for Medium-Range Weather
+        Prediction</em></p>
+        <p class="stub">Semester project &middot; Aug 2025, Jan 2026</p>
+        <p>
+          Built and scaled HEAL-ViT, a HEALPix-based vision
+          transformer for medium-range weather forecasting at
+          1.5-degree resolution. Scaling the transformer bottleneck
+          from 6 to 48 layers cut RMSE by 12&ndash;25% at
+          short-to-medium lead times and improved skill out to 5
+          days across all 20 forecast variables.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="ashik-sufaid-s">Ashik Sufaid S</h3>
+        <p><em>Implementation and Evaluation of GraphCast</em></p>
+        <p class="stub">Semester project &middot; Aug 2025, Jan 2026</p>
+        <p>
+          Implemented and evaluated GraphCast, Google DeepMind's
+          graph-neural-network weather model, which learns residual
+          updates on a multi-resolution mesh and rolls them out
+          autoregressively. Trained on 20 atmospheric variables;
+          most maintained usable forecast skill (by ACC) out to
+          about a week.
+        </p>
+      </div>
+
+      <div class="entry">
+        <h3 id="dinesh-karthik">Dinesh Karthik</h3>
+        <p><em>The Robustness-Accuracy Trade-off in Diffusion-Based
+        Purification</em></p>
+        <p class="stub">Semester project &middot; Aug 2025, Jan 2026</p>
+        <p>
+          Derived closed-form expressions for the trade-off between
+          clean and adversarially robust accuracy in a
+          diffusion-based purification framework (DiPure), under a
+          Gaussian mixture model. Found that diffusion noise always
+          degrades clean accuracy, but only improves robustness when
+          the adversarial budget exceeds the signal strength, and
+          even then it can't beat random chance.
+        </p>
+      </div>
     </div>
   </main>
 
