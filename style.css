@@ -72,10 +72,10 @@ main {
 }
 
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.55rem;
   font-weight: 700;
   color: var(--h1);
-  margin: 0 0 2px;
+  margin: 0 0 6px;
 }
 
 .affiliation {
