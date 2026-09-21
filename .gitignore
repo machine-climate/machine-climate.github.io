@@ -2,6 +2,9 @@
 _site
 .sass-cache
 .vagrant
+vendor/
+.bundle/
+Gemfile.lock
 
 # general
 .DS_Store

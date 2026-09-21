@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning in Climate Science</title>
+    <description>Independent research group at the University of Tübingen</description>
+    <link>/archive</link>
+    <atom:link href="/archive/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Presenting our work at EGU 2023</title>
+        <description>
+          
+          This year we have four presentations at EGU 2023: two on-site posters, one virtual poster, and an oral presentation. PhD students Felix, Jakob, and Jannik are at Vienna right hnow presenting their work, meeting colleagues, and getting up to date with the latest work on weather, climate, and geoscience research....
+        </description>
+        <pubDate>Thu, 27 Apr 2023 00:00:00 +0200</pubDate>
+        <link>/archive/2023-04-27-our-group-at-egu/</link>
+        <guid isPermaLink="true">/archive/2023-04-27-our-group-at-egu/</guid>
+      </item>
+    
+      <item>
+        <title>First article published</title>
+        <description>
+          
+          In the beginning of September, our article on how the type of El Niño, i.e. whether it is centered in the Central Pacific or the Eastern Pacific, influences its global correlation patterns got published in Geophysical Research Letters. We use the concept of curvature for complex networks to differentiate short-range...
+        </description>
+        <pubDate>Tue, 27 Sep 2022 00:00:00 +0200</pubDate>
+        <link>/archive/2022-09-27-first-article-published/</link>
+        <guid isPermaLink="true">/archive/2022-09-27-first-article-published/</guid>
+      </item>
+    
+      <item>
+        <title>Eight abstracts accepted to EGU22</title>
+        <description>
+          
+          Last week we received letters of acceptance for eight abstracts submitted from our group to the EGU 2022 meeting. The accepted abstracts are: EGU22-6479 Benedict Roeder et al. Parameter inference and uncertainty quantification for an intermediate complexity climate model Session ITS2.6/AS5.1 – Machine learning for Earth System modelling Type: Short...
+        </description>
+        <pubDate>Mon, 07 Mar 2022 00:00:00 +0100</pubDate>
+        <link>/archive/2022-03-07-egu-abstracts-accepted/</link>
+        <guid isPermaLink="true">/archive/2022-03-07-egu-abstracts-accepted/</guid>
+      </item>
+    
+      <item>
+        <title>CLOSED - Open position for PhD (m/f/d; E13 TV-L, 65%)</title>
+        <description>
+          
+          We are inviting applications for a PhD position (m/f/d; E13 TV-L, 65%) to develop seasonal forecasts of extreme rainfall events over Germany and western Europe using spatiotemporal artificial neural networks (STANNs). The position is funded for three years starting no later than 1 September 2021 and, along with three other...
+        </description>
+        <pubDate>Wed, 31 Mar 2021 00:00:00 +0200</pubDate>
+        <link>/archive/2021-03-31-phd-job-announcement/</link>
+        <guid isPermaLink="true">/archive/2021-03-31-phd-job-announcement/</guid>
+      </item>
+    
+      <item>
+        <title>Seven abstracts accepted to EGU21</title>
+        <description>
+          
+          We started receiving the “Letters of Acceptance” emails from EGU yesterday one by one. Although geoscience conferences are not as strict as machine learning / computer science / engineering conferences, it was still really happy news for our group that all of our submitted (!) abstracts got accepted. Felix Strnad’s...
+        </description>
+        <pubDate>Thu, 04 Feb 2021 00:00:00 +0100</pubDate>
+        <link>/archive/2021-02-04-egu-abstracts-accepted/</link>
+        <guid isPermaLink="true">/archive/2021-02-04-egu-abstracts-accepted/</guid>
+      </item>
+    
+      <item>
+        <title>IUCliD Workshop on Uncertainties</title>
+        <description>
+          Bedartha Goswami - 
+          I attended the ‘Workshop on Uncertainties’ organised at the Potsdam Institute for Climate Impact Research (PIK) Potsdam last week from 29 September to 2 October 2020. Keynote lectures from Sune Rasmussen, Maarten Blaauw, Nadine Berner, and Rebecca Morisson covered several interesting aspects of uncertainties. Topics included: how (and why) ice...
+        </description>
+        <pubDate>Tue, 06 Oct 2020 00:00:00 +0200</pubDate>
+        <link>/archive/2020-10-06-iuclid-workshop-potsdam/</link>
+        <guid isPermaLink="true">/archive/2020-10-06-iuclid-workshop-potsdam/</guid>
+      </item>
+    
+      <item>
+        <title>Watch this space!</title>
+        <description>
+          
+          The independent research group “Machine Learning in Climate Science” was established officially in January this year with Bedartha Goswami as its helm. It aims to investigate climate processes and unravel the complexity of climatic systems with tools and techniques from the wide domain of machine learning. This website will the...
+        </description>
+        <pubDate>Thu, 10 Sep 2020 00:00:00 +0200</pubDate>
+        <link>/archive/2020-09-10-watch-this-space/</link>
+        <guid isPermaLink="true">/archive/2020-09-10-watch-this-space/</guid>
+      </item>
+    
+  </channel>
+</rss>
