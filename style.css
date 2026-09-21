@@ -67,10 +67,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-nav a.archive-link {
-  color: var(--muted);
-}
-
 main {
   padding: 20px 0 48px;
 }
@@ -162,6 +158,18 @@ a {
 
 .profile dd {
   margin: 0 0 6px 110px;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 480px) {
+  .profile dt {
+    float: none;
+    width: auto;
+  }
+
+  .profile dd {
+    margin: 0 0 10px;
+  }
 }
 
 .pubs {
